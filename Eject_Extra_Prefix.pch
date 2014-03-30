@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Eject Extra' target in the 'Eject Extra' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#if _DEBUG_
+#define NSDebugLog(format, ...)  NSLog(format, ##__VA_ARGS__)
+#else
+#define NSDebugLog(format, ...)
+#endif

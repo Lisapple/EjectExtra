@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Eject Extra
+
+  Created by Max on 29/02/12.
+  Copyright (c) 2012 Lis@cintosh. All rights reserved.
+*/
+
+"About..." = "À Propos...";
+"Quit" = "Quitter";
+"NO_DEVICES_CONNECTED" = "Aucun appareil connecté";
